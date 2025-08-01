@@ -313,6 +313,14 @@ class StatisticalPhilosophy:
 ## 🎮 Fun Projects & Interests
 
 <div align="center">
+
+<div align="center">
+
+[![Cookiecutter DS](https://github-readme-stats.vercel.app/api/pin/?username=drivendataorg&repo=cookiecutter-data-science&theme=tokyonight)](https://github.com/drivendataorg/cookiecutter-data-science)
+
+*My go-to template for structured data science projects!*
+
+</div>
   
 ### 🎲 Gaming Database Project
 > **My favorite game is...** building data pipelines so powerful that even the final boss (your data chaos) gets defeated before the first turn!  
