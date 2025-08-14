@@ -9,12 +9,6 @@
   <img src="https://img.shields.io/badge/Code-Clean%20%7C%20Documented-success?style=flat-square&logo=prettier" alt="Code Quality"/>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Projects%20Completed-42-success?style=flat-square" alt="Projects"/>
-  <img src="https://img.shields.io/badge/Production%20Models-18-blue?style=flat-square" alt="Models"/>
-  <img src="https://img.shields.io/badge/Pipeline%20Uptime-99.2%25-green?style=flat-square" alt="Uptime"/>
-</p>
-
 > *"I live with data, for data — because everything is about data."*
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F80ED&center=true&vCenter=true&width=500&lines=Data+Science+%26+MLOps+%F0%9F%94%AC;Database+Architecture+%F0%9F%8E%AF;Clean+Code+Advocate+%F0%9F%93%9A;Problem--Driven+Solutions+%F0%9F%94%A7;Self--Hosted+Solutions+%E2%9A%A1" alt="Typing SVG" />
