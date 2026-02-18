@@ -1,7 +1,7 @@
 <div align="center">
 
 # Gökhan Elbistan
-### Senior Data Scientist • Data Platform Lead • Product Owner
+### Data Scientist • Data Platform Lead • Product Owner
 
 <p>
   <img src="https://img.shields.io/badge/IBM-Certified%20Data%20Scientist-BE95FF?style=flat-square&logo=ibm" alt="IBM Certified"/>
@@ -48,7 +48,7 @@ mindmap
 
 ## 👤 Profile
 
-Senior Data Scientist with organization-wide ownership of analytics, data platform modernization, and enterprise data architecture in logistics and supply chain. Experienced in Medallion Architecture, scalable BI ecosystems, ERP integrations, and cross-functional team leadership. Focused on architecture-driven data operating models that enable measurable, future-ready decision-making.
+Data Scientist with organization-wide ownership of analytics, data platform modernization, and enterprise data architecture in logistics and supply chain. Experienced in Medallion Architecture, scalable BI ecosystems, ERP integrations, and cross-functional team leadership. Focused on architecture-driven data operating models that enable measurable, future-ready decision-making.
 
 ---
 
