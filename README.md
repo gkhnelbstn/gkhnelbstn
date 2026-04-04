@@ -1,7 +1,7 @@
 <div align="center">
 
 # Gökhan Elbistan
-### Data Scientist • Data Platform Lead • Product Owner
+### Data Scientist • Data Platform Lead
 
 <p>
   <img src="https://img.shields.io/badge/IBM-Certified%20Data%20Scientist-BE95FF?style=flat-square&logo=ibm" alt="IBM Certified"/>
