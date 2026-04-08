@@ -11,7 +11,7 @@
 
 > *"I live with data, for data — because everything is about data."*
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F80ED&center=true&vCenter=true&width=500&lines=Data+Science+%26+MLOps+%F0%9F%94%AC;Data+Platform+Architecture+%F0%9F%8E%AF;BI+%26+Decision+Systems+%F0%9F%93%8A;Data+Governance+%26+Quality+%F0%9F%94%8D;Clean+Code+Advocate+%F0%9F%93%9A" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F80ED&center=true&vCenter=true&width=540&lines=Data+Science+%26+MLOps+%F0%9F%94%AC;Data+Platform+Architecture+%F0%9F%8E%AF;DataOps+%26+Governance+%F0%9F%94%8D;BI+%26+Decision+Systems+%F0%9F%93%8A;Clean+Code+Advocate+%F0%9F%93%9A" alt="Typing SVG" />
 
 </div>
 
@@ -21,34 +21,46 @@
 
 ```mermaid
 mindmap
-  root((Data Expert))
-    Data Platform & Architecture
+  root((Data))
+    Platform & Architecture
       Medallion Architecture
       ETL / ELT Pipelines
       Data Warehouse Design
-      Apache Spark & Airflow
     Data Science & ML
-      CRISP-DM
       Statistical Analysis
       Machine Learning
-      MLOps & LLMOps
-    Databases & Storage
-      PostgreSQL
-      MongoDB
-      DynamoDB
-      Vector DBs
-    BI & Governance
+      MLOps
+    DataOps & Governance
+      Data Quality
+      Data Catalog
+      Data Lineage
+    BI & Decision Systems
       Power BI & DAX
       KPI Definition
-      Data Quality
-      ISO 27001 & KVKK
+      Reporting
 ```
 
 ---
 
 ## 👤 Profile
 
-Data Scientist with organization-wide ownership of analytics, data platform modernization, and enterprise data architecture in logistics and supply chain. Experienced in Medallion Architecture, scalable BI ecosystems, ERP integrations, and cross-functional team leadership. Focused on architecture-driven data operating models that enable measurable, future-ready decision-making.
+Data Scientist with organization-wide ownership of analytics, data platform modernization, and enterprise data architecture in logistics and supply chain. Experienced in Medallion Architecture, scalable BI ecosystems, ERP integrations, and cross-functional team leadership. Focused on architecture-driven data operating models that improve reliability, traceability, and decision-making at scale.
+
+---
+
+## 🧭 Data Platform Narrative
+
+A practical data operating model should not stop at reporting. It should move from source systems to trusted decision layers through a controlled pipeline:
+
+**Ingestion → Transformation → Quality → Catalog → BI**
+
+- **Ingestion:** ERP systems, operational databases, APIs, telemetry, and external sources are collected through Python-based services, orchestration pipelines, and integration workflows.
+- **Transformation:** Raw and operational data is standardized, modeled, and prepared for analytics through SQL-first transformation patterns and dbt-based ELT workflows.
+- **Quality:** Data quality rules, validations, freshness checks, and test scenarios are managed through Soda Core and dbt tests to improve trust in downstream datasets.
+- **Catalog:** Metadata, lineage, ownership, and dataset documentation are centralized through OpenMetadata to make the platform easier to govern and scale.
+- **BI:** Clean and controlled data is exposed to reporting and decision systems such as Power BI, Looker Studio, and operational dashboards.
+
+This structure reflects how I approach sustainable analytics: not as isolated dashboards, but as a governed and scalable data platform.
 
 ---
 
@@ -83,8 +95,11 @@ Data Scientist with organization-wide ownership of analytics, data platform mode
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Skilled-FF6F00?style=flat-square&logo=tensorflow)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Skilled-EE4C2C?style=flat-square&logo=pytorch)
 
-### MLOps & Observability
+### MLOps, DataOps & Observability
 ![MLflow](https://img.shields.io/badge/MLflow-Primary-0194E2?style=flat-square&logo=mlflow)
+![dbt](https://img.shields.io/badge/dbt-Primary-FF694B?style=flat-square&logo=dbt)
+![Soda%20Core](https://img.shields.io/badge/Soda%20Core-Primary-0F172A?style=flat-square)
+![OpenMetadata](https://img.shields.io/badge/OpenMetadata-Primary-4F46E5?style=flat-square)
 ![Grafana](https://img.shields.io/badge/Grafana-Primary-F46800?style=flat-square&logo=grafana)
 ![Prometheus](https://img.shields.io/badge/Prometheus-Primary-E6522C?style=flat-square&logo=prometheus)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Primary-009688?style=flat-square&logo=fastapi)
@@ -100,17 +115,17 @@ Data Scientist with organization-wide ownership of analytics, data platform mode
 ![Tableau](https://img.shields.io/badge/Tableau-Skilled-E97627?style=flat-square&logo=tableau)
 ![Metabase](https://img.shields.io/badge/Metabase-Learning-509EE3?style=flat-square)
 
-### Data Governance
-![ISO 27001](https://img.shields.io/badge/ISO%2027001-Compliant-green?style=flat-square)
-![KVKK](https://img.shields.io/badge/KVKK-Compliant-red?style=flat-square)
-![DMBOK](https://img.shields.io/badge/DMBOK-Applied-blue?style=flat-square)
-![SCOR](https://img.shields.io/badge/SCOR%20Framework-Applied-purple?style=flat-square)
+### Governance Frameworks
+![ISO 27001](https://img.shields.io/badge/ISO%2027001-Skilled-green?style=flat-square)
+![KVKK](https://img.shields.io/badge/KVKK-Skilled-red?style=flat-square)
+![DMBOK](https://img.shields.io/badge/DMBOK-Skilled-blue?style=flat-square)
+![SCOR](https://img.shields.io/badge/SCOR%20Framework-Skilled-purple?style=flat-square)
 
 ---
 
 ## 📁 Project Structure Philosophy
 
-```
+```text
 project_name/
 ├── data/               # DVC-tracked, git-ignored
 │   ├── raw/           # Immutable source data
@@ -136,8 +151,12 @@ project_name/
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gkhnelbstn&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gkhnelbstn&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gkhnelbstn&theme=tokyonight" alt="GitHub Profile Summary" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gkhnelbstn&theme=tokyonight" alt="Repos per Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gkhnelbstn&theme=tokyonight" alt="Most Commit Language" />
 </p>
 
 ---
@@ -145,20 +164,20 @@ project_name/
 ## 🤝 Connect
 
 <div align="center">
-  <a href="https://linkedin.com/in/gkhnelbstn">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <a href="https://www.linkedin.com/in/gkhnelbstn/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Professional%20Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://kaggle.com/gkhnelbstn">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+  <a href="https://www.kaggle.com/gkhnelbstn" target="_blank">
+    <img src="https://img.shields.io/badge/Kaggle-Notebooks%20%26%20Competitions-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/>
   </a>
-  <a href="https://huggingface.co/gkhnelbstn">
-    <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge"/>
+  <a href="https://huggingface.co/gkhnelbstn" target="_blank">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Models%20%26%20Experiments-FFD21E?style=for-the-badge" alt="Hugging Face"/>
   </a>
-  <a href="https://osf.io/gkhnelbstn">
-    <img src="https://img.shields.io/badge/OSF.io-4CAF50?style=for-the-badge"/>
+  <a href="https://osf.io/gkhnelbstn" target="_blank">
+    <img src="https://img.shields.io/badge/OSF-Research%20Profile-4CAF50?style=for-the-badge" alt="OSF"/>
   </a>
   <a href="mailto:gkhnelbstn@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-Direct%20Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </div>
 
